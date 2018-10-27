@@ -35,7 +35,7 @@ public class GiantCliDemoIntegrationTests {
 	}
 
 	@Test
-	public void testPageRefreshesEvery5sec() {
+	public void testPageRefreshesEvery5Minutes() {
 		ResponseEntity<String> entity = this.testRestTemplate.getForEntity(ENDPOINT, String.class);
 		assertThat(entity.getStatusCode()).isEqualTo(HttpStatus.OK);
 		assertThat(entity.getBody()).contains("<meta http-equiv=\"refresh\" content=\"300\"/>");
