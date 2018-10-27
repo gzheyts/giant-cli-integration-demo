@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/gzheyts/giant-cli-integration-demo.svg?branch=master)](https://travis-ci.org/gzheyts/giant-cli-integration-demo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-#giant-cli-integration-demo
+# giant-cli-integration-demo
 ## Overview
 Spring Boot application wich integrates with Giant-cli tool [v1.2.2.1]  and every 5 minutes reloads page and shows  actual values for last block number in blockchain and its complexity
 
